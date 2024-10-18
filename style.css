@@ -1,0 +1,338 @@
+
+#maindiv{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.outer1{
+    height: 15%;
+    width: 75%;
+    position: absolute;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.outer2{
+    height: 15%;
+    width: 75%;
+    /* background-color: azure; */
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 6.2rem;
+}
+.outer3{
+    height: 65%;
+    width: 75%;
+    /* border: 2px solid black; */
+    position: absolute;
+    top:12rem;
+}
+.outer4{
+    height: 96%;
+    width: 23%;
+    position: absolute;
+    /* border: 2px solid black; */
+    right: 0;
+}.sideb{
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    top: 1.6rem;
+    left: 1.2rem;
+    z-index: 100;
+    transition: 1s;
+}#min{
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 8.7rem;
+}.stand{
+    height: 1.6rem;
+    width: 1.6rem;
+    position: absolute;
+    top: .5rem;
+    left:3.5rem;
+}.menu{
+    height: 96%;
+    width: 20.5%;
+    border: 2px solid rgba(128, 128, 128,0.5);
+    background-color: aliceblue;
+    opacity: 1;
+    position: fixed;
+    top: 0.5rem;
+    z-index: 99;
+    left: -350px;
+    border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
+    transition: 0.3s ease-in-out 0s;
+    
+
+    
+}.conv{
+    position: absolute;
+    color: gray;
+    font-size: larger;
+    top: 2.6rem;
+    left: 1.3rem;
+
+}.list{
+    position: absolute;
+    top: 5rem;
+}
+.list li{
+    margin: 0  0 2rem 0.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: -0.5rem;
+    letter-spacing: 0.05rem;
+    transition: 1s;   
+}.imgs{
+    height: 1.3rem;
+    width: 1.3rem;
+    padding: 0.01rem;
+    margin: 0.05rem;
+    position: relative;
+    top: 0.35rem;
+    font-weight: 800;
+    transition: 1.5s;
+}.setting{
+    position: fixed;
+    bottom: 0.7rem;
+    left: 0.03;
+    height: 8%;
+    width: 19%;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-radius: 1rem;
+    line-height: 3;
+   padding-left: 1.3rem;
+}.list li:hover{
+     font-weight: 900;
+}
+.list .imgs:hover{
+    font-weight: 900;
+}
+.setting:hover{
+    font-weight: 900;
+}
+.setting .imgs{
+    font-weight: 900;
+}
+#bold{
+    transition: 1s ease-in-out 0.5s;
+}
+.sideb:hover{
+    font-weight: 900;
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+ #check:checked ~ .menu{
+   left: 0.7rem;
+ }
+ #check:checked ~ .menu #bold{
+    font-weight: 900;
+  }
+
+  #number{
+    height: 100%;
+    width: 98%;
+    font-size: 250%;
+   margin-right: 1%;
+   border-radius: 2px;
+   /* padding-right: 1%; */
+   text-align: end;
+   letter-spacing: 0.1rem;
+   line-height: 1rem;
+
+  }
+  #number::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+  }
+  .standerd{
+    height:10%;
+    width:inherit;
+    display: flex;
+
+  }.btna1{
+    height: 100%;
+    width: 10%;
+    /* border:1px black solid; */
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 0 0.2rem 0 0.2rem;
+    margin: 0 0.2rem 0 0.2rem;
+    transition: 0.2rem;
+  }.btna2{
+    height: 100%;
+    width: 10%;
+    /* border:1px black solid; */
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 0 0.2rem 0 0.2rem;
+    margin: 0 0.2rem 0 0.2rem;
+    transition: 0.2rem;
+
+  }.btna3{
+    height: 100%;
+    width: 10%;
+    /* border:1px black solid; */
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 0 0.2rem 0 0.2rem;
+    margin: 0 0.2rem 0 0.2rem;
+    transition: 0.2rem;
+  }.btna4{
+    height: 100%;
+    width: 10%;
+    /* border:1px black solid; */
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 0 0.2rem 0 0.2rem;
+    margin: 0 0.2rem 0 0.2rem;
+    transition: 0.2rem;
+  }.btna5{
+    height: 100%;
+    width: 10%;
+    /* border:1px black solid; */
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 0 0.2rem 0 0.2rem;
+    margin: 0.rem 0.2rem 0 0.2rem;
+    transition: 0.2rem;
+  }
+   .standerd div:hover{
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 0.3rem;
+    box-shadow: 0.1rem 0.1rem rgb(128, 128, 128,0.4);
+  }
+  .normal{
+    height: 88%;
+    width: 99.5%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+
+  }.normal div{
+    height: 3.1rem;
+    width: 24%;
+    border: 1px solid rgb(220, 217, 217);
+    margin: 0.15rem;
+    padding-right: 0.15rem;
+    /* padding-left: 0.1rem; */
+    border-radius: 0.22rem;
+    background-color: whitesmoke;
+    box-shadow: 0.05rem 0.09rem gray;
+    line-height: 2.5;
+    text-align: center;
+    /* font-weight: 900; */
+    font-size: larger;
+    /* transition: 1s ease-in-out 0s; */
+  }.normal div:hover{
+      background-color: rgba(128, 128, 128, 0.2);
+  }#remove{
+    height: 1.2rem;
+    width: 1.2rem;
+    padding-left: 0.7rem;
+    padding-top: 1rem;
+    
+  }.histry{
+      height: 96%;
+       width: 97%;
+        background-color: whitesmoke;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 1rem;
+        left: 0rem;
+        border-radius: 6px;
+  }
+  .histry h3{
+      position: absolute;
+      bottom: 0.2rem;
+      right: 4rem;
+      font-size: 1rem;
+     font-weight: 300px;
+     font-family: 'Times New Roman', Times, serif;
+  }
+  .memory{
+    height: 96%;
+    width: 97%;
+    background-color: aliceblue;
+    position: absolute;
+    right: .5rem;
+    top: 1.2rem;
+    border-radius: 1rem;
+    /* display: flex; */
+    left: -5000rem;
+  }.memory h3{
+    position: absolute;
+    bottom: 0.2rem;
+    right: 4rem;
+    font-weight: 300;
+    opacity: 0.5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1rem;
+    display: none;
+  }.navbar{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position: absolute;
+    left: -3500px;
+    opacity: 0.1;
+    z-index: 98;
+
+  }#check:checked ~ .navbar {
+    left: 0px;
+  } .memory p {
+    position: absolute;
+    top:2.5rem;
+    left: 1.5rem;
+  }.histry p{
+    position: absolute;
+    top: 2.9rem;
+    left: 1.5rem;
+  }.btnhist{
+    position: absolute;
+    height: 1.6rem;
+    width: 1.6rem;
+    bottom: 1rem;
+    right: 2rem;
+  }
+  .btnmem{
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+  }#mem:checked ~ .memory{
+    left: 0;
+  }.btnhist2{
+    position: absolute;
+    right: 0.2rem;
+  }.btnmem2{
+    position: absolute;
+    right: 0.2rem;
+  }.head{
+    position: absolute;
+    left: 5rem;
+  }.hdel{
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    bottom: 0.7rem;
+    left: 1rem;
+  }
+  .hdels{
+    left: 3.5rem;
+    bottom:-0.5rem;
+    opacity: 0.5;
+    display: none;
+  }
+.mini{
+  position: absolute;
+  left: 10.5rem;
+  opacity: 0.5;
+  display: none;
+}

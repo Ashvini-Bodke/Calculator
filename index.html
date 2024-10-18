@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="outer1">
+            <div >
+                 <input id="check" type="checkbox" style="position: fixed;left: -300px;" >
+                 <div class="navbar"></div>
+                 <div>
+                  <label for="check"> 
+                    <img class ="sideb"  src="D:\CALCULATOR\assets\menu.png" alt="logo" >
+                  </label>
+                </div>
+                 <div class="menu">
+                    <div>
+                        <h3 class="conv">Converter</h3>
+                    </div>
+
+                    <div class="list">
+                       <ul>
+                        <li id="bold"> 
+                            <label for="check" >
+                             <img class="imgs" src="D:\CALCULATOR\assets\calcu.png" alt="logo"> STANDARD
+                            </label>
+                           </li>
+                          <li>
+                             <img class="imgs" src="D:\CALCULATOR\assets\area.png" alt="logo"> AREA 
+                          </li>
+                          <li>
+                             <img class="imgs" src="D:\CALCULATOR\assets\lenght.png" alt="logo"> LENGHT
+                          </li>
+                          <li>
+                             <img class="imgs" src="D:\CALCULATOR\assets\tempture.png" alt="logo"> TEMPTURE
+                          </li>
+                          <li>
+                             <img class="imgs" src="D:\CALCULATOR\assets\speed.png" alt="logo"> SPEED
+                          </li>
+                          <li>
+                             <img class="imgs" src="D:\CALCULATOR\assets\energy.png" alt="logo"> ENERDY
+                          </li>
+                          <li>
+                              <img class="imgs" src="D:\CALCULATOR\assets\time (1).png" alt="logo"> TIME
+                           </li>
+                       </ul>
+                       <div class="setting">
+                        <img class="imgs" src="D:\CALCULATOR\assets\setting.png" alt="logo"> SETTINGS </div>
+                    </div>
+                </div>
+             </div>
+              <h3 class="stand">Standard</h3>
+             <div >
+                <img id="min" src="D:\CALCULATOR\assets\minimize.png" alt="btn">
+                <h4 class="mini">minimize</h4>
+            </div>
+        </div>
+        <div class="outer2">
+            <input type="text" id="number" placeholder="0" style="border-radius: 6px;" >
+            <div>
+                <label for="number"></label>
+            </div>
+        </div>
+        <div class="outer3">
+            <div class="standerd">
+                <div class="btna1">MC</div>
+                <div class="btna2">MR</div>
+                <div class="btna3">M+</div>
+                <div class="btna4">M-</div>
+                <div class="btna5">MS</div>
+            </div>
+            <div class="normal">
+                  <div class="btnb1 btns">%</div>
+                  <div class="btnb2 btns">CE</div>
+                  <div class="btnb3 btns">C</div>
+                  <div class="btn4 btns">
+                    <img id="remove" class="btns" src="D:\CALCULATOR\assets\remove.png" alt="btn">
+                  </div>
+                  <div class="btn5 btns">1/x</div>
+                  <div class="btn6 btns">Sq.root</div>
+                  <div class="btn7 btns">2root/x</div>
+                  <div class="btnb8 btns">/</div>
+                  <div class="btnb9 btns">7</div>
+                  <div class="btnb10 btns">8</div>
+                  <div class="btn11 btns">9</div>
+                  <div class="btn12 btns">*</div>
+                  <div class="btn13 btns">4</div>
+                  <div class="btn14 btns">5</div>
+                  <div class="btnb15 btns">6</div>
+                  <div class="btnb16 btns">-</div>
+                  <div class="btnb17 btns">1</div>
+                  <div class="btn18 btns">2</div>
+                  <div class="btn19 btns">3</div>
+                  <div class="btn20 btns">+</div>
+                  <div class="btn21 btns">+/-</div>
+                  <div class="btn22 btns">0</div>
+                  <div class="btn23 btns">.</div>
+                  <div class="btn24 btns">=</div>
+            </div>
+        </div>
+        <div class="outer4">
+            <input style="position: fixed; left: -500px;" type="checkbox" id="mem">
+                <div class="histry">
+                    <label for="mem">
+                        <img class="btnmem" src="D:\CALCULATOR\assets\file save.png" alt="btn">
+                        <img class="btnmem btnmem2" src="D:\CALCULATOR\assets\swipe arrow.png" alt="btn">
+                    <h3 style="opacity: 0.5; display: none;">MEMORY</h3>
+                    </label>
+                    <h2 class="head">HISTORY</h2>
+                   <p>There's no history yet.</p>
+                   <img class="hdel" src="D:\CALCULATOR\assets\delete history.png" alt="btn" >
+                   <h4 class="hdel hdels">DELETE HISTORY</h4>
+                </div>
+                <div class="memory">
+                  <label for="mem">
+                    <h3>HISTORY</h3>
+                    <img class="btnhist" src="D:\CALCULATOR\assets\hist.png" alt="btn">
+                    <img class="btnhist btnhist2" src="D:\CALCULATOR\assets\swipe arrow.png" alt="btn">
+                    </label>
+                    <h2 class="head">MEMORY</h2>
+                   <p>There's nothing saved in memory.</p>
+               </div>
+        </div>
+    </div>
+    <script src="app.js">
+    </script>
+    <script src="class.js"></script>
+</body>
+</html>
